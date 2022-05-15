@@ -1,0 +1,55 @@
+@font-face {
+    font-family:myFont ;
+    src: url('./Roboto-Light.ttf');
+}
+
+* {
+    margin:10px;
+    font-family: myFont, Arial, sans-serif;
+}
+
+body {
+    background-color:black;
+}
+
+.container1 {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.player1 {
+    width:90px ;
+    height:30px ;
+    background-color:blue ;
+}
+
+.bullet1 {
+    width:20px ;
+    height:20px ;
+    border-radius:50%;
+    background-color:white ;
+    
+    
+}
+
+.player2 {
+    width:90px ;
+    height:30px ;
+    background-color:red ;
+    position:relative;
+    top:510px;
+}
+
+.btns {
+    font-weight:900;
+    width:70px;
+}
+
+.btns:hover {
+    border:none;
+    background-color:rgb(85, 108, 255); ;
+    box-shadow:2px 2px 22px rgb(85, 108, 255);
+}
+
