@@ -33,23 +33,27 @@ body {
     
     
 }
-
+.container2 {
+    display:inline-grid;
+}
 .player2 {
     width:90px ;
     height:30px ;
     background-color:red ;
     position:relative;
-    top:510px;
+    top:410px;
 }
 
 .btns {
     font-weight:900;
-    width:70px;
+    width:50px;
 }
 
 .btns:hover {
     border:none;
     background-color:rgb(85, 108, 255); ;
     box-shadow:2px 2px 22px rgb(85, 108, 255);
+    height:23px;
+    border-radius:5px;
 }
 
