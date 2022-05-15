@@ -12,7 +12,7 @@ let myBullet1 = document.querySelector('.bullet1');
 
 let startAction = anime ({
         targets: myBullet1,
-            translateY: [-21, 430],       
+            translateY: [-21, 330],       
             loop:true,
             direction:'alternate',
             rotate: '360',
