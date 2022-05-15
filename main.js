@@ -12,11 +12,12 @@ let myBullet1 = document.querySelector('.bullet1');
 
 let startAction = anime ({
         targets: myBullet1,
-            translateY: [-21, 330],       
+            translateY: [-29, 344],       
             loop:true,
+            duration:1800,
             direction:'alternate',
-            rotate: '360',
-            easing: 'easeInOutSine',
+            rotate: '10turn',
+            easing: 'easeInOutQuad',
             autoplay:false,       
 });
 

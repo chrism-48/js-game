@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color:black;
+    background-color:rgb(255, 255, 255);
 }
 
 .container1 {
@@ -22,24 +22,17 @@ body {
 .player1 {
     width:90px ;
     height:30px ;
-    background-color:blue ;
+    background-color:rgba(0, 0, 0, 0.268) ;
 }
 
-.bullet1 {
-    width:20px ;
-    height:20px ;
-    border-radius:50%;
-    background-color:white ;
-    
-    
-}
+
 .container2 {
     display:inline-grid;
 }
 .player2 {
     width:90px ;
     height:30px ;
-    background-color:red ;
+    background-color:rgba(0, 0, 0, 0.268) ;
     position:relative;
     top:310px;
 }
@@ -47,13 +40,19 @@ body {
 .btns {
     font-weight:900;
     width:50px;
+    height:30px;
 }
 
 .btns:hover {
     border:none;
     background-color:rgb(85, 108, 255); ;
     box-shadow:2px 2px 22px rgb(85, 108, 255);
-    height:23px;
+    height:30px;
     border-radius:5px;
 }
 
+#arrows {
+    width:60px ;
+    height:60px;
+    
+}
